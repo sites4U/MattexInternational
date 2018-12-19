@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+body{
+  overflow-x: hidden;
+}
+
+.navbar-brand{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.7em;
+  text-shadow: 2px 2px 3px #444;
+}
+
+.navbar .nav-link{
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active{
+ border-left: #eee 3px solid;
+}
+
+
+.carousel-item{
+  height: 450px;
+}
+
+.carousel-image-1{
+  background: url('../img/image1.jpg');
+  background-size: cover;
+}
+.carousel-image-2{
+  background: url('../img/image2.jpg');
+  background-size: cover;
+  
+}
+.carousel-image-3{
+  background: url('../img/image3.jpg');
+  background-size: cover;
+}
+
+#home-heading{
+  position: relative;
+  min-height: 200px;
+  background:url('../img/lights.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+#video-play{
+  position: relative;
+  min-height: 300px;
+  text-align: center;
+  color: #17A2B8;
+}
+
+#video-play a{
+  color: #5BE7C4;
+
+}
+
+#video-play a:hover{
+  color: #17A2B8;
+  text-shadow: 3px 2px 10px #666;
+}
+
+#page-header{
+  height: 200px;
+  background:url('../img/image3.jpg');
+  background-position: 0 -160;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 3px #eee solid;
+  padding-top: 30px;
+}
+.nav-item a:hover {
+  color:#17A2B8;
+}
+.about-img{
+  margin-top: -50px;
+}
+
+#faq .card {
+  border:#444;
+}
+
+#faq a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body{
+  background: #17A2B8;
+}
+
+#faq .card-header{
+  background: #333;
+}
+
+#main-footer {
+  background: #17A2B8;
+  color: #fff
+}
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #fff; }
+  
+
+#social a{
+   text-decoration: none;
+   text-shadow: -1px -1px #000,
+                0 1px 0 #444;
+    color: #222;
+    transition: all 1s;    
+ } 
+ #social a:hover{
+  text-shadow: -1px -1px #000,
+  0 1px 0 #444;
+  color: #1a1a1a;
+ }
+
+
